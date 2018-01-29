@@ -7,13 +7,13 @@ For Dev
 ----------
 
 ```sh
-yarn isntall
+yarn install
 docker-compose up
 ```
 
 For Test
 --------
 ```sh
-yarn isntall
+yarn install
 yarn test
 ```
