@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"removeComments": false,
+		"noImplicitAny": true,
+		"noEmitOnError": true,
+		"importHelpers": true,
+		"alwaysStrict": true,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"rootDir": "api",
+		"outDir": "bin",
+		"noUnusedLocals": true
+	},
+	"include": [
+		"api/**/*.ts"
+	],
+	"compileOnSave": false,
+	"exclude": [
+		"node_modules",
+		"bower_components"
+	]
+}
